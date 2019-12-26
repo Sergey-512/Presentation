@@ -2,6 +2,9 @@
 .m-f{
 	font-family: 'BPG WEB 001';
 }
+.m-l{
+	font-family: 'Lobster';
+}
 .clear{
 	clear: both;
 }
@@ -152,24 +155,24 @@ html, body {
 	max-width: 100%;
 	width: 220px;
 	height: 350px;
-	transition: all 2s linear 0.5s;
+	/*transition: all 2s linear 0.5s;*/
 }
 .img-14{
 	max-width: 100%;
 	width: 220px;
 	height: 350px;
-	transition: all 2s linear 0.5s;
+/*	transition: all 2s linear 0.5s;*/
 }
 .img-15{
 	max-width: 100%;
 	width: 220px;
 	height: 350px;
-	transition: all 2s linear 0.5s;
+/*	transition: all 2s linear 0.5s;*/
 }
-.img-13:hover{
+/*.img-13:hover{
 	height: 300px;
-}
-.img-13:hover .p-abs{
+}*/
+/*.img-13:hover .p-abs{
 	display: block;
 }
 .img-14:hover{
@@ -177,13 +180,70 @@ html, body {
 }
 .img-15:hover{
 	height: 300px;
-}
-.p-abs{
-	display: none;
-}
+}*/
 /*end page 3*/
 
+/*footer section*/
+.footer-section{
+	background-color: darkgrey;
+	padding-top: 30px;
+}
+.footer-c{
+	width: 300px;
+	height: 200px;
+}
+.p-f{
+	line-height: 18px;
+	margin-top: 47px;
+}
+.f-soc{
+	font-size: 22px;
+	margin-top: 47px;
+}
+.social-last-icons{
+	margin-right: 18px;
+}
+/*end footer*/
 
-
-
+/*page 4*/
+.form-section{
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+}
+.form-info{
+	width: 100%;
+	margin-top: 8px;
+	padding: 5px;
+	font-size: 18px;
+	font-family: 'Lobster';
+	border-radius: 10px;
+}
+.log-in{
+	margin-top: 30px;
+}
+.form-box{
+	margin-bottom: 20px;
+}
+.message-box{
+	height: 200px;
+	resize: none;
+}
+.button{
+	font-size: 20px;
+	transition: all 0.5s ease;
+	margin-bottom: 20px;
+}
+.button:hover{
+	background-color: red;
+}
+.im{
+	margin-bottom: 15px;
+}
+.janr{
+	font-size: 35px;
+}
+.janr-1{
+	text-align: center;
+}
 

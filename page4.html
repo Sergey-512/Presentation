@@ -11,39 +11,47 @@
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 </head>
 <body style="background-color: #DCDCDC">
-	<header>
+<header>
 		<div class="container">
 			<img class="header-image" src="images/6.jpg">
 		<nav class="navv">
 			<ul class="nav nav-pills nav-fill">
 			  <li class="nav-item m-f">
-			    <a class="nav-link" href="page1.html">მთავარი</a>
+			    <a class="nav-link active" href="#">მთავარი</a>
 			  </li>
 			  <li class="nav-item m-f">
-			    <a class="nav-link active" href="#">აკორდები</a>
+			    <a class="nav-link" href="page2.html">აკორდები</a>
 			  </li>
 			  <li class="nav-item m-f">
 			    <a class="nav-link" href="page3.html">ვიდეო</a>
 			  </li>
-			   <li class="nav-item m-f">
-			    <a class="nav-link" href="page4.html">რეგისტრაცია</a>
+			  <li class="nav-item m-f">
+			    <a class="nav-link" href="#">რეგისტრაცია</a>
 			  </li>
 			</ul>
 		</nav>
 	</div>
 	</header>
 	<div class="container">
-		<h3 class="h3-p2 m-f"> სამი ძირითადი აკორდი </h3>
-	
-	<img class="img-9" src="images/9.jpg" alt="9">
-	<p class="p-p2 m-f">როგორც ამბობენ, თითქმის ყოველთვის თვითნასწავლი იწყება სამი ქურდის აკორდები, აი, აქ მივდივართ!</p>
-	<div class="d-flex flex-wrap flex-column img-11">
-		<p class="p-p2 m-f">Am</p> <img class="img-12" src="images/10.png" alt="10">
-		<p class="p-p2 m-f">Dm</p> <img class="img-12" src="images/11.png" alt="11">
-		<p class="p-p2 m-f">E</p> <img class="img-12" src="images/12.png" alt="12">
+		<form class="form-section">
+			<div class="form-box">
+				<label for="name" class="m-l log-in">Login</label>
+				<input type="text" name="name" id="name" class="form-info" placeholder="Write your login" required>
+			</div>
+			<div class="form-box">
+				<label for="mypassword" class="m-l">Password</label>
+				<input type="password" name="mypassword" maxlength="8" id="mypassword" class="form-info" placeholder="Write your password" required>
+			</div>
+			<div class="form-box">
+				<label for="email" class="m-l">Email</label>
+				<input type="email" name="email" id="email" class="form-info" placeholder="Write your email" required>
+			</div>
+			<div class="buttonn">
+			<button type="submit" class="m-l button rounded">Register</button>
+		    </div>
+		</form>
 	</div>
-</div>
-<footer class="footer-section">
+	<footer class="footer-section">
 		<div class="container d-flex flex-wrap justify-content-between">
 			<div class="footer-c">
 				<h3 class="h3-footer m-l"> Uke in Georgia </h3>
@@ -61,11 +69,11 @@
 		</div>
 	</footer>
 
+
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.bundle.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>
-
-
+	
 </body>
 </html>
